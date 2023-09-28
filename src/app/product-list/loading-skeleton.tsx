@@ -12,7 +12,7 @@ const LoadingSkeleton = () => {
   // Need to do a quick type casting here as the returned type from `resolveConfig()`
   // is not compatible with Skeleton's baseColor and highlightColor types
   const baseColor = fullConfig.theme?.colors?.black as ThemeColor;
-  const highlightColor = fullConfig.theme?.colors?.darkBlack as ThemeColor;
+  const highlightColor = fullConfig.theme?.colors?.['dark-black'] as ThemeColor;
 
   return (
     <div className="flex flex-wrap gap-7">

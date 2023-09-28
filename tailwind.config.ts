@@ -20,9 +20,6 @@ const config: Config = {
       screens: {
         xs: '375px',
       },
-      backgroundImage: {
-        'bg-gradient': "url('/images/gradient.png')",
-      },
     },
   },
 };
