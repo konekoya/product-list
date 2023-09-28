@@ -45,7 +45,7 @@ const ProductList = (props: ProductListProps) => {
               <h3 className="text-sm whitespace-nowrap overflow-hidden truncate mb-2 font-black">
                 {product.name}
               </h3>
-              <p className="text-xs text-light-gray whitespace-nowrap md:whitespace-normal overflow-hidden md:overflow-visible truncate mb-4">
+              <p className="text-xs text-gray-light whitespace-nowrap md:whitespace-normal overflow-hidden md:overflow-visible truncate mb-4">
                 {product.description}
               </p>
 

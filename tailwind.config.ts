@@ -10,7 +10,7 @@ const config: Config = {
     fontFamily: {},
     colors: {
       yellow: '#f9d03f',
-      'light-gray': '#fcf9f2',
+      'gray-light': '#fcf9f2',
       gray: '#696969',
       'gray-dark': '#121111',
       black: '#171716',

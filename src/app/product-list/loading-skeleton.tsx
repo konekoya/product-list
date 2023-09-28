@@ -1,6 +1,6 @@
 import Skeleton from 'react-loading-skeleton';
 
-// @ts-ignore TSC is somehow complain about the wrong path but this path actually works
+// @ts-ignore TSC is somehow complaining about the wrong path but this path actually works
 import tailwindConfig from '@../../../tailwind.config.ts';
 import resolveConfig from 'tailwindcss/resolveConfig';
 
